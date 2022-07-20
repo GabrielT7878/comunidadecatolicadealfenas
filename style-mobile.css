@@ -1,0 +1,118 @@
+@media (max-width: 980px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    #menu-mobile {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        height: 30px;
+        width: 30px;
+        border: none;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        z-index: 5;
+        margin-right: 5.5rem;
+    }
+
+    .menu-sticker {
+        margin-top: 7px;
+        height: 2px;
+        background-color: black;
+        width: 25.8px;
+        transition: .5s ease;
+    }
+
+    .menu-sticker.active1 {
+        transform-origin: top right;
+        transform: rotate(-45deg);
+        transition: .5s ease;
+    }
+
+    .menu-sticker.active2 {
+        opacity: 0;
+        transition: .5s ease;
+    }
+
+    .menu-sticker.active3 {
+        transform-origin: bottom right;
+        transform: rotate(45deg);
+        transition: .5s ease;
+    }
+
+    #carouselExampleIndicators {
+        margin: auto;
+        width: 100%;
+    }
+
+    .carousel-container {
+        top: 0;
+        height: 14rem;
+    }
+
+    .carousel-inner img {
+        height: 14rem;
+    }
+
+
+
+    .ul-nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: -80%;
+        height: 100vh;
+        width: 50%;
+        background-color: white;
+        text-align: center;
+        padding: 90px 10px 150px;
+        transition: .6s ease;
+        justify-content: space-between;
+        opacity: 0;
+    }
+
+    .ul-nav.active {
+        right: 0;
+        opacity: 1;
+    }
+
+    .logo {
+        margin-top: 10px;
+        margin-left: 60px;
+        display: flex;
+        height: 5rem;
+        width: 2.5rem;
+    }
+
+    .main-cards {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .card img {
+        height: auto;
+        width: 100%;
+        max-height: 400px;
+    }
+    .card {
+        text-align: center;
+        height: auto;
+        width: 93%;
+        margin: 10px auto;
+    }
+
+
+    .card h6,
+    .card h3 {
+        margin: 10px;
+    }
+
+    footer {
+        margin-top: 50px;
+        bottom: 0;
+    }
+
+}
