@@ -1,0 +1,39 @@
+
+
+/*mobile*/
+
+h3 {
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+    margin: 20px auto;
+}
+
+.selection {
+    display: flex;
+    width: auto;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container-info {
+    max-width: 400px;
+    display: flex;
+}
+
+.main-cards {
+    display: flex;
+}
