@@ -11,7 +11,17 @@ function menuActive() {
     }
     menuUl.classList.toggle('active');
 }
-    menuBtn.addEventListener("click", menuActive);
+menuBtn.addEventListener("click", menuActive);
+window.addEventListener('scroll',()=>{
+    if (menuBtn.classList.value == 'menu active') {
+            menuBtn.classList.toggle('active');
+            active = ["active1", "active2", "active3"];
+            for (let i = 0; i < 3; i++) {
+                menuStickers[i].classList.toggle(active[i]);
+            }
+            menuUl.classList.toggle('active');
+        }
+})
 
 
 
