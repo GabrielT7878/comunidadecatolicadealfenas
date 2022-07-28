@@ -51,6 +51,8 @@
     .carousel-container {
         top: 0;
         height: 14rem;
+        max-width: 600px;
+        margin: auto;
     }
 
     .carousel-inner img {
@@ -90,6 +92,8 @@
     .main-cards {
         flex-direction: column;
         padding: 0;
+        max-width: 700px;
+        margin: auto;
     }
 
     .info-cards {

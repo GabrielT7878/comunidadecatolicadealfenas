@@ -1,3 +1,7 @@
+* {
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
 #carouselExampleIndicators {
     margin: 0 auto;
     max-width: 80vh;
@@ -76,6 +80,12 @@ body {
     max-width: 400px;
   }
 
+  .image-background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   }
 
 .card {
     display: flex;
