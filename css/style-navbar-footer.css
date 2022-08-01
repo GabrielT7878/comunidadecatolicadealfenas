@@ -29,6 +29,10 @@ header {
     margin: 1rem 2rem;
 }
 
+.logo a{
+    padding: 10px;
+}
+
 .main-cards {
     width: 100%;
     background-color: #f8f8ff;
