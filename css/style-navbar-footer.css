@@ -33,6 +33,10 @@ header {
     padding: 10px;
 }
 
+    .logo a:hover {
+        color: #606060;
+    }
+
 .main-cards {
     width: 100%;
     background-color: #f8f8ff;
