@@ -144,8 +144,18 @@
         text-align: center;
         height: auto;
         width: 93%;
-        margin: 10px auto;
+        margin: 10px 13px;
     }
+
+    .aviso {
+    display: flex;
+    text-align: left;
+    height: 100px;
+    width: 90%;
+    margin: 30px;
+    align-items: center;
+    justify-content: left;
+}
 
 
     .card h6,
