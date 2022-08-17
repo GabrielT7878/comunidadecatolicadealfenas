@@ -17,6 +17,7 @@ header {
     background-color: rgb(255, 255, 255);
     align-items: center;
     z-index: 100;
+    text-align: center;
 }
 
 .ul-nav {
@@ -49,4 +50,17 @@ footer {
     justify-content: space-around;
     align-items: center;
     bottom: 0;
+}
+
+.div-informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-informations a {
+    color: #000000;
+    text-decoration: none;
+    margin: 10px;
 }
